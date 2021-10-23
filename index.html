@@ -27,16 +27,6 @@
 
 
 
-
-
-
-  <script type="application/ld+json">{
-      "@context": "http://schema.org",
-      "@type": "Organization",
-      "name": "Site1",
-      "sameAs": []
-  }</script>
-
 </head>
 
 <!-- nav bar -->
@@ -68,7 +58,7 @@
             </a>
             <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
               <li><a class="dropdown-item" href="#">Art & Literature</a></li>
-              <li><a class="dropdown-item" href="#">Biology</a></li>
+              <li><a class="dropdown-item" href="results.html">Biology</a></li>
               <li><a class="dropdown-item" href="#">Computer Science</a></li>
               <li><a class="dropdown-item" href="#">Data Science</a></li>
               <li><a class="dropdown-item" href="#">Painting</a></li>
@@ -82,11 +72,11 @@
 
 
           <li class="nav-item ms-3">
-            <a class="nav-link active" href="#">JOBS</a>
+            <a class="nav-link active" id="nav-jobs" href="#">JOBS</a>
           </li>
 
           <li class="nav-item ms-3">
-            <a class="nav-link active" aria-current="page" href="#">CONTACT</a>
+            <a class="nav-link active" id="nav-contact" aria-current="page" href="#">CONTACT</a>
           </li>
 
           <!-- search bar in navbar -->
@@ -136,7 +126,7 @@
     <div class="search" id="hero-search">
       <form>
         <input class="input" id="hero-search-input" type="text" name="s" placeholder="What do you want to learn?">
-        <button type="submit" id="hero-search-btn">
+        <button type="submit" id="hero-search-btn"> <a href="results.html"></a>
           <i class="fa fa-search">
           </i>
         </button>

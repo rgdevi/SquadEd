@@ -34593,14 +34593,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-5 tr:nth-child(even)
         {
             color: #ffffff;
-            background-color: #11a00e;
+            background-color: #02A382;
         }
 
         .u-button-style.u-custom-color-5,
         .u-button-style.u-custom-color-5[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #11a00e !important;
+            background-color: #02A382 !important;
         }
 
         .u-button-style.u-custom-color-5:hover,
@@ -34615,7 +34615,7 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > .u-button-style.u-button-style.u-custom-color-5[class*="u-border-"]
         {
             color: #ffffff !important;
-            background-color: #0f900d !important;
+            background-color: ##02E3B5 !important;
         }
 
         .u-hover-custom-color-5:hover,
@@ -34656,14 +34656,14 @@ a.u-link.u-text-hover-grey-90:hover {
         .u-table-alt-custom-color-6 tr:nth-child(even)
         {
             color: #111111;
-            background-color: #47e344;
+            background-color: #02E3B5;
         }
 
         .u-button-style.u-custom-color-6,
         .u-button-style.u-custom-color-6[class*="u-border-"]
         {
             color: #111111 !important;
-            background-color: #47e344 !important;
+            background-color: #02E3B5 !important;
         }
 
         .u-button-style.u-custom-color-6:hover,
@@ -34678,7 +34678,7 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > .u-button-style.u-button-style.u-custom-color-6[class*="u-border-"]
         {
             color: #111111 !important;
-            background-color: #2edf2a !important;
+            background-color: #02E3B5 !important;
         }
 
         .u-hover-custom-color-6:hover,
@@ -34703,11 +34703,11 @@ a.u-link.u-text-hover-grey-90:hover {
         li.active > a.u-button-style.u-button-style.u-active-custom-color-6[class*="u-border-"]
         {
             color: #111111 !important;
-            background-color: #47e344 !important;
+            background-color: #02E3B5 !important;
         }
 
         a.u-link.u-hover-custom-color-6:hover {
-            color: #47e344 !important;
+            color: #02E3B5 !important;
         }
 
         
