@@ -1,4 +1,13 @@
 
+#sign-in:hover, #navbarDropdown:hover, #nav-jobs:hover, #nav-contact:hover{
+  text-decoration: underline;
+  text-decoration-color:#02A382;
+  
+  text-underline-offset: 0.5rem;
+  text-decoration-thickness: 0.3rem;
+  
+}
+
 #free-btn{
   transition: all .5s ease;
   border-radius: 10px !important;
@@ -8,7 +17,7 @@
 #free-btn:hover {
   color: #111111 !important;
   background-color: #02E3B5 !important;
-  /* background-color: #30B39F !important; */
+ 
   transition: all .5s ease;
   font-weight: bold;
 }
@@ -19,6 +28,7 @@
   box-shadow: 2.5px 3px 3px 1px rgba(0,0,0,0.3);
   
 }
+
 .u-section-1 {
   background-image: none;
 }
@@ -380,6 +390,7 @@
   letter-spacing: 1px;
   background-image: none;
   box-shadow: 5px 5px 20px 0 rgba(0,0,0,0.4);
+  animation-duration: 1000ms;
   margin: 38px auto 0;
   padding: 14px 31px 15px 30px;
 }
@@ -684,7 +695,6 @@
   min-height: 476px;
   margin-top: 60px;
   margin-bottom: 60px;
-  height: auto;
 }
 
 .u-section-3 .u-tab-link-1 {
@@ -847,6 +857,10 @@
 }
 
 @media (max-width: 1199px) {
+  .u-section-3 .u-tabs-1 {
+    height: auto;
+  }
+
   .u-section-3 .u-image-1 {
     height: 422px;
   }
