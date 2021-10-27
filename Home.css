@@ -230,9 +230,12 @@ transform: translate(-50%, -50%);
   }
   .hero-search-wrapper{
     margin-top: 3rem;
+    width: 80%;
   }
 
 }
+
+
 
 @media (max-width: 767px) {
   .u-section-1 .u-sheet-1 {

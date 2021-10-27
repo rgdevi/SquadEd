@@ -124,17 +124,22 @@
     <section class="details-container content">
         <div class="container-fluid">
             <div class="row gx-5 my-2 ml-2 mr-2">
-                <p class="pl-sm-0 pl-2 ms-3"> <a href="index.html"
-                        style="text-decoration: none; color: #02A382;">Home</a> |
-                    <b>Search Results</b>
+                <p class="pl-sm-0 pl-2 ms-3">
+                    <a href="index.html" style="text-decoration: none; color: #02A382;">Home</a> |
+                    Search Results
                 </p>
-                <div class="col-1"></div>
-                <div class="col-2 p-3 my-4">
 
-                    <div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse"
+                <div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse"
+                        data-target="#mobile-filter" aria-expanded="true" aria-controls="mobile-filter">Filters<span
+                            class="fa fa-filter pl-1"></span></button>
+                </div>
+                <!-- <div class="col-1"></div> -->
+                <div class="col-3 p-3 my-4">
+
+                    <!-- <div class="filter"> <button class="btn btn-default" type="button" data-toggle="collapse"
                             data-target="#mobile-filter" aria-expanded="true" aria-controls="mobile-filter">Filters<span
                                 class="fa fa-filter pl-1"></span></button>
-                    </div>
+                    </div> -->
                     <div id="sidebar">
                         <!-- <p class="pl-sm-0 pl-2 ms-3"> <a href="index.html">Home</a> | <b>Search Results</b></p> -->
                         <div class="border-bottom pb-2 ms-3">
@@ -298,16 +303,17 @@
                         <div class="row g-0 content-cards">
                             <div class="col-md-4">
                                 <img src="images/david-clode-eOSqRq2Qm1c-unsplash_1_640x420.jpeg"
-                                    class="img-fluid rounded-start" alt="...">
+                                    class="img-fluid card-img-top rounded-start" alt="...">
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Introduction to Biology</h5>
-                                    <p class="card-text">Biology is a natural science concerned with the study of life
-                                        and living organisms. Modern biology is a vast and eclectic field composed of
+                                    <h5 class="card-title"><a href="#" id="course-title">Introduction
+                                            to
+                                            Biology</a>
+                                    </h5>
+                                    <p class="card-text"> Modern biology is a vast and eclectic field composed of
                                         many specialized disciplines that study the structure, function, growth,
-                                        distribution, evolution, or other features of living organisms, the cell is the
-                                        basic unit of life.</p><br>
+                                        distribution,evolution.</p><br>
 
                                     <div class="card-ftr">
                                         <div class="ratings-container">
@@ -352,12 +358,13 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Neurobiology</h5>
+                                    <h5 class="card-title"><a href="#" id="course-title">Neurobiology</a></h5>
                                     <p class="card-text">Neurobiology is the study of cells of the nervous system and
                                         the organization of these cells into functional circuits that process
-                                        information and mediate behavior. It is a subdiscipline of both biology and
+                                        information and mediate behavior. </p>
+                                    <!-- It is a subdiscipline of both biology and
                                         neuroscience.which deal with the structure or function of the nervous system and
-                                        brain.</p><br>
+                                        brain.</p> -->
 
                                     <div class="card-ftr">
                                         <div class="ratings-container">
@@ -368,7 +375,7 @@
                                             <span><small> 4.5 (30,304)</small></span>
 
                                         </div>
-                                        <div class="spec-1 text-muted"><span class="dot"></span><span>Specializations
+                                        <div class="spec-1 text-muted"><span class="dot"></span><span>Mentor guided
                                             </span><br></div>
                                         <!-- <a href="#" class="stretched-link">Learn More</a> -->
                                         <a href="#"
@@ -400,12 +407,11 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Animal Behavior & Welfare</h5>
+                                    <h5 class="card-title"><a href="#" id="course-title">Animal Behavior & Welfare</a>
+                                    </h5>
                                     <p class="card-text">Animal welfare has been described as a complex, multi-faceted
                                         public policy issue which includes important scientific, ethical, and other
-                                        dimensions. Improving our understanding of animal welfare, involves the
-                                        fascinating study of animal behavior as well as the challenge of accessing the
-                                        emotions of animals.</p><br>
+                                        dimensions.</p><br>
 
                                     <div class="card-ftr">
                                         <div class="ratings-container">
@@ -451,11 +457,11 @@
                             </div>
                             <div class="col-md-8">
                                 <div class="card-body">
-                                    <h5 class="card-title">Understanding Animal Care</h5>
+                                    <h5 class="card-title"><a href="#" id="course-title">Understanding Animal Care</a>
+                                    </h5>
                                     <p class="card-text">Animals must be provided water, food, proper handling, health
                                         care, and an environment appropriate to their care and use, with thoughtful
-                                        consideration for their species-typical biology and behavior. Animals should be
-                                        cared for in ways that minimize fear, pain, stress, and suffering.</p><br>
+                                        consideration for their species-typical biology and behavior.</p><br>
 
 
                                     <div class="card-ftr">
@@ -464,11 +470,11 @@
                                                     class="fa fa-star"></i><i class="fa fa-star"></i><i
                                                     class="fa fa-star"></i><i class="fa fa-star-half-empty"></i>
                                             </div>
-                                            <span><small> 4.5 (30,304)</small></span>
+                                            <span class="rating-cnt"><small> 4.5 (30,304)</small></span>
 
                                         </div>
-                                        <div class="spec-1 text-muted"><span class="dot"></span><span>Mentor
-                                                guided</span><br></div>
+                                        <div class="spec-1 text-muted"><span class="dot"></span><span>Self learning
+                                            </span><br></div>
                                         <!-- <a href="#" class="stretched-link">Learn More</a> -->
                                         <a href="#"
                                             class="u-border-1 u-border-active-custom-color-3 u-border-hover-custom-color-7 u-btn u-button-style u-none u-text-custom-color-2 u-btn-1">LEARN
@@ -495,7 +501,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-1"></div>
+                <!-- <div class="col-1"></div> -->
 
             </div>
         </div>
@@ -782,6 +788,13 @@
     setInterval(changeText, 5000); /*Call it here*/
     changeText();
 
+    // function mouseover() {
+    //     document.getElementById("course-title").style.color = "#02A382";
+    // }
+
+    // function mouseout() {
+    //     document.getElementById("course-title").style.color = "#002333";
+    // }
 </script>
 
 </html>
