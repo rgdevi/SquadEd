@@ -50,7 +50,7 @@
           <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <ul class="navbar-nav mb-2 mb-lg-0">
 
 
             <li class="nav-item dropdown ms-3 mb-3">
@@ -85,6 +85,17 @@
 
           </ul>
 
+          <!-- search in nav bar -->
+          <div class="menu-search-wrapper">
+            <div class="search">
+              <div class="search-title"><span>Courses</span></div>
+              <input type="text" class="search-phrase" placeholder="Find a course...">
+              <button type="submit" class="search-btn">
+                <i class="fa fa-search"></i>
+              </button>
+            </div>
+          </div>
+          <!-- search in nav bar code -->
           <form class="d-flex">
 
             <div class="input-group">
@@ -116,10 +127,17 @@
                 <div class="u-expanded u-video u-video-contain u-video-1" data-animation-name="slideIn"
                   data-animation-duration="1000" data-animation-delay="0" data-animation-direction="Down">
                   <div class="embed-responsive embed-responsive-1">
-                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
-                      class="embed-responsive-item"
+                    <!-- <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
+                      class="embed-responsive-item "
                       src="https://www.youtube.com/embed/j2AbMH14IBo?mute=0&amp;showinfo=0&amp;controls=0&amp;start=0"
+                      frameborder="0" allowfullscreen=""></iframe> -->
+
+                    <iframe style="position: absolute;top: 0;left: 0;width: 100%;height: 100%;"
+                      class="embed-responsive-item "
+                      src="https://www.youtube.com/embed/j2AbMH14IBo?mute=0&amp;showinfo=0&amp;rel=0&amp;start=0&amp;modestbranding=1"
                       frameborder="0" allowfullscreen=""></iframe>
+
+
                   </div>
                 </div>
               </div>
@@ -602,5 +620,6 @@
     integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
     crossorigin="anonymous"></script>
 </body>
+
 
 </html>

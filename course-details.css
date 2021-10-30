@@ -29,6 +29,117 @@
   
 }
 
+/* search */
+
+* search bar css */
+
+.menu-search-wrapper {
+  width: 48rem;
+display:flex
+}
+
+
+/* .navbar-collapse {
+  justify-content:  space-evenly;
+} */
+
+
+.search-hide {
+  display: none;
+  transition: 1s;
+}
+
+.search {
+width: 100%;
+position: relative;
+display: flex;
+}
+
+.search-title {
+  vertical-align: middle;
+  font-size:1rem;
+  height: 4rem;
+  background: #02A382;
+  border-radius: 5px 0 0 5px;
+  color: white;
+  margin-right:-3px;
+  padding: 1.2rem 0.7rem 0.7rem 0.7rem;
+
+}
+
+.search-phrase {
+
+  width: 100%;
+border: 3px solid #02A382;
+border-right: none;
+padding: 5px;
+height: 4rem;
+border-radius: 5px 0 0 5px;
+outline: none;
+color: #fff;
+background-color: rgba(0, 0, 0, 0.7);
+}
+
+.search-title span {
+  margin-top:3px;
+}
+
+.search-phrase:focus{
+/* color: #02A382; */
+color: #fff;
+}
+
+.search-btn {
+width: 4rem;
+height: 4rem;
+border: 1px solid #02A382;
+background: #02A382;
+text-align: center;
+color: #fff;
+border-radius: 0 5px 5px 0;
+cursor: pointer;
+font-size: 20px;
+}
+
+
+/*Resize the wrap to see the search bar change!*/
+.hero-search-wrapper {
+  width: 50%;
+  height:5rem;
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  }
+  
+  .hero-message {
+      position: absolute;
+      top: 40%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+  
+  .hero-message h1 {
+      color: bisque;
+      font-size: 5rem;
+  }
+  
+  .hero-message span {
+      color: bisque;
+      font-size: 3rem;
+  }
+      
+  
+  .hero-search-wrap {
+      width: 50%;
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      }
+      
+
+
 .u-section-1 {
   background-image: none;
 }
@@ -103,6 +214,29 @@
   margin: -56px auto 0 29px;
   padding: 14px 30px 16px;
 }
+
+
+@media screen and (min-width: 1366px){
+
+  .menu-search-wrapper{
+    width: 36rem;
+  }
+  }
+  
+  @media screen and (min-width: 1280px){
+  
+    .menu-search-wrapper{
+      width: 28rem;
+    }
+    }
+
+ @media(min-width:1000px) and (max-width:1100px)  {
+
+      .menu-search-wrapper{
+        display: none;
+      }
+      
+    }
 
 @media (max-width: 1199px) {
   .u-section-1 .u-layout-wrap-1 {
